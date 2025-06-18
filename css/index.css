@@ -1,0 +1,63 @@
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f0f0f0;
+    }
+
+    .index {
+        margin: 0;
+        padding: 0;
+        font-family: 'Georgia', serif;
+        background: url(../img/the_tower.jpg);
+        background-size: 100%;
+        background-attachment: fixed;
+        color: #333;
+    }
+
+    .titulo {
+        margin-top: 2rem;
+        font-family: "Chakra Petch", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 4rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    .titulo_lore {
+        font-size: 30px;
+        color: #000;
+    }
+
+    .perfil {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 2px solid #666;
+        object-fit: cover;
+    }
+
+    .build {
+        width: 250px;
+        height: 150px;
+        border-radius: 5%;
+        border: 2px solid #666;
+        object-fit: cover;
+    }
+
+    .contenedor {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    .item {
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        background-color: #ffffff7a;
+    }

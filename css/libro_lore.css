@@ -1,0 +1,84 @@
+    .oscuridad {
+        margin: 0;
+        padding: 0;
+        font-family: 'Georgia', serif;
+        background: url(../img/destiny_darkness.jpg);
+        background-size: 100%;
+        background-attachment: fixed;
+        color: #333;
+    }
+
+    .luz {
+        margin: 0;
+        padding: 0;
+        font-family: 'Georgia', serif;
+        background: url(../img/destiny_light.jpeg);
+        background-size: 100%;
+        background-attachment: fixed;
+        color: #333;
+    }
+
+    .vex {
+        margin: 0;
+        padding: 0;
+        font-family: 'Georgia', serif;
+        background: url(../img/infinite_forest.jpg);
+        background-size: 100%;
+        background-attachment: fixed;
+        color: #333;
+    }
+
+    .libro {
+        max-width: 800px;
+        margin: 50px auto;
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    }
+
+    .perfil {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .perfil img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 2px solid #666;
+        object-fit: cover;
+        opacity: 1;
+    }
+
+    .pagina {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        opacity: 0;
+        transform: translateX(100%);
+        transition: all 0.5s ease;
+        text-align: justify;
+    }
+
+    .pagina.activa {
+        opacity: 1;
+        transform: translateX(0);
+        position: relative;
+    }
+
+    .titulo{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .dialogo {
+        font-style: oblique;
+    }
+
+    .subtitulo {
+        font-style: oblique;
+        font-weight: bold;
+        text-align: center;
+    }
