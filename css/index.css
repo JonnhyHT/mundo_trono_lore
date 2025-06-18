@@ -61,3 +61,62 @@
         text-align: center;
         background-color: #ffffff7a;
     }
+
+    @media screen and (max-width: 480px) {
+
+        .index {
+            background: url(../img/the_tower_movile.webp);
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        .titulo {
+            margin-top: 2rem;
+            font-family: "Chakra Petch", sans-serif;
+            font-style: normal;
+            font-size: 2rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .titulo_lore {
+            font-size: 1rem;
+            color: #000;
+        }
+
+        .perfil {
+            width: 4rem;
+            height: 4rem;
+            border-radius: 50%;
+            border: 2px solid #666;
+            object-fit: cover;
+        }
+
+        .build {
+            width: 6rem;
+            height: 4rem;
+            border-radius: 5%;
+            border: 2px solid #666;
+            object-fit: cover;
+        }
+
+        .contenedor {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+        }
+
+        .item {
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            background-color: #ffffff7a;
+        }
+        
+    }
