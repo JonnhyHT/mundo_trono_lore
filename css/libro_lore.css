@@ -82,3 +82,21 @@
         font-weight: bold;
         text-align: center;
     }
+
+    .botones-compartir {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .boton-red {
+        padding: 10px 20px;
+        background-image: url(../img/whatsapp-share-button.svg);
+        background-repeat: no-repeat;
+        width: 4rem;
+        height: 2rem;
+        margin-top: 2rem;
+    }
