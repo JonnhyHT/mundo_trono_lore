@@ -1,5 +1,4 @@
     body {
-        font-family: Arial, sans-serif;
         margin: 0;
         padding: 20px;
         background-color: #f0f0f0;
@@ -8,7 +7,6 @@
     .index {
         margin: 0;
         padding: 0;
-        font-family: 'Georgia', serif;
         background: url(../img/the_tower.jpg);
         background-size: 100%;
         background-attachment: fixed;
@@ -17,11 +15,12 @@
 
     .titulo {
         margin-top: 2rem;
-        font-family: "Chakra Petch", sans-serif;
+        font-family: "Rubik Glitch", system-ui;
         font-weight: 300;
         font-style: normal;
         font-size: 4rem;
         font-weight: 700;
+        color: rgb(8, 69, 0);
         text-transform: uppercase;
         margin-bottom: 2rem;
         text-align: center;
@@ -75,7 +74,7 @@
 
         .titulo {
             margin-top: 2rem;
-            font-family: "Chakra Petch", sans-serif;
+            font-family: "Rubik Glitch", system-ui;
             font-style: normal;
             font-size: 2rem;
             font-weight: 700;
