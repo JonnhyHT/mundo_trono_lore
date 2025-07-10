@@ -1,18 +1,52 @@
-    .oscuridad {
+    .portaluz {
         margin: 0;
         padding: 0;
-        font-family: 'Georgia', serif;
-        background: url(../img/destiny_darkness.jpg);
+        background: url(../img/destiny_light.jpeg);
         background-size: 100%;
         background-attachment: fixed;
         color: #333;
     }
 
-    .luz {
+    .humano {
         margin: 0;
         padding: 0;
-        font-family: 'Georgia', serif;
-        background: url(../img/destiny_light.jpeg);
+        background: url(../img/last_city.jpg);
+        background-size: 100%;
+        background-attachment: fixed;
+        color: #333;
+    }
+
+    .elixsni {
+        margin: 0;
+        padding: 0;
+        background: url(../img/fallens_elixsni.jpg);
+        background-size: 100%;
+        background-attachment: fixed;
+        color: #333;
+    }
+
+    .cabal {
+        margin: 0;
+        padding: 0;
+        background: url(../img/red_war_temple.jpg);
+        background-size: 100%;
+        background-attachment: fixed;
+        color: #333;
+    }
+
+    .colmena {
+        margin: 0;
+        padding: 0;
+        background: url(../img/hive.avif);
+        background-size: 100%;
+        background-attachment: fixed;
+        color: #333;
+    }
+
+    .poseido {
+        margin: 0;
+        padding: 0;
+        background: url(../img/the_takens.jpg);
         background-size: 100%;
         background-attachment: fixed;
         color: #333;
@@ -21,8 +55,25 @@
     .vex {
         margin: 0;
         padding: 0;
-        font-family: 'Georgia', serif;
         background: url(../img/infinite_forest.jpg);
+        background-size: 100%;
+        background-attachment: fixed;
+        color: #333;
+    }
+
+    .desdenado {
+        margin: 0;
+        padding: 0;
+        background: url(../img/forsaken_scorn.jpg);
+        background-size: 100%;
+        background-attachment: fixed;
+        color: #333;
+    }
+
+    .oscuridad {
+        margin: 0;
+        padding: 0;
+        background: url(../img/destiny_darkness.jpg);
         background-size: 100%;
         background-attachment: fixed;
         color: #333;
