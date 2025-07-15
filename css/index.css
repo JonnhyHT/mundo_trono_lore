@@ -45,15 +45,6 @@
         object-fit: cover;
     }
 
-    .footer {
-        margin: 20px;
-        width: 450px;
-        height: 250px;
-        border-radius: 5%;
-        border: 2px solid #666;
-        object-fit: cover;
-    }
-
     .build {
         width: 250px;
         height: 150px;
@@ -79,10 +70,20 @@
 
     .itemfooter {
         padding: 20px;
+        display: grid;
         border-radius: 8px;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         text-align: center;
         background-color: #0b1014;
+    }
+
+    .footer {
+        margin: 20px;
+        width: 450px;
+        height: 250px;
+        border-radius: 5%;
+        border: 2px solid #666;
+        object-fit: cover;
     }
 
     @media screen and (max-width: 480px) {
