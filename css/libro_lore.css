@@ -1,6 +1,4 @@
     .portaluz {
-        margin: 0;
-        padding: 0;
         background: url(../img/destiny_light.jpeg);
         background-size: 100%;
         background-attachment: fixed;
@@ -8,26 +6,34 @@
     }
 
     .humano {
-        margin: 0;
-        padding: 0;
         background: url(../img/last_city.jpg);
         background-size: 100%;
         background-attachment: fixed;
         color: #333;
     }
 
+    .ahamkara {
+        background: url(../img/great_ahamkara.jpg);
+        background-size: 100%;
+        background-attachment: fixed;
+        color: #333;
+    }
+
     .elixsni {
-        margin: 0;
-        padding: 0;
         background: url(../img/the-fallen.jpg);
         background-size: 100%;
         background-attachment: fixed;
         color: #333;
     }
 
+    .desdenado {
+        background: url(../img/the-scorn.jpg);
+        background-size: 100%;
+        background-attachment: fixed;
+        color: #333;
+    }
+
     .cabal {
-        margin: 0;
-        padding: 0;
         background: url(../img/red_war_temple.jpg);
         background-size: 100%;
         background-attachment: fixed;
@@ -35,8 +41,6 @@
     }
 
     .colmena {
-        margin: 0;
-        padding: 0;
         background: url(../img/hive.avif);
         background-size: 100%;
         background-attachment: fixed;
@@ -44,36 +48,28 @@
     }
 
     .poseido {
-        margin: 0;
-        padding: 0;
-        background: url(../img/the_takens.jpg);
+        background: url(../img/poseidos.jpg);
         background-size: 100%;
         background-attachment: fixed;
         color: #333;
     }
 
     .vex {
-        margin: 0;
-        padding: 0;
         background: url(../img/infinite_forest.jpg);
         background-size: 100%;
         background-attachment: fixed;
         color: #333;
     }
 
-    .desdenado {
-        margin: 0;
-        padding: 0;
-        background: url(../img/forsaken_scorn.jpg);
+    .seguidor {
+        background: url(../img/destiny_darkness.jpg);
         background-size: 100%;
         background-attachment: fixed;
         color: #333;
     }
 
-    .oscuridad {
-        margin: 0;
-        padding: 0;
-        background: url(../img/destiny_darkness.jpg);
+    .nueve {
+        background: url(../img/the-Nine.webp);
         background-size: 100%;
         background-attachment: fixed;
         color: #333;
@@ -94,9 +90,9 @@
     }
 
     .perfil img {
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        border-radius: 20%;
         border: 2px solid #666;
         object-fit: cover;
         opacity: 1;

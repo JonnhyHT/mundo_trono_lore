@@ -1,0 +1,292 @@
+    @import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,100..900;1,100..900&family=Zen+Dots&display=swap');
+
+    .portaluz {
+        background: url(../img/destiny_light.jpeg);
+        background-size: 100%;
+        background-attachment: fixed;
+        color: #333;
+    }
+
+    .humano {
+        background: url(../img/last_city.jpg);
+        background-size: 100%;
+        background-attachment: fixed;
+        color: #333;
+    }
+
+    .ahamkara {
+        background: url(../img/great_ahamkara.jpg);
+        background-size: 100%;
+        background-attachment: fixed;
+        color: #333;
+    }
+
+    .elixsni {
+        background: url(../img/the-fallen.jpg);
+        background-size: 100%;
+        background-attachment: fixed;
+        color: #333;
+    }
+
+    .desdenado {
+        background: url(../img/the-scorn.jpg);
+        background-size: 100%;
+        background-attachment: fixed;
+        color: #333;
+    }
+
+    .cabal {
+        background: url(../img/red_war_temple.jpg);
+        background-size: 100%;
+        background-attachment: fixed;
+        color: #333;
+    }
+
+    .colmena {
+        background: url(../img/hive.avif);
+        background-size: 100%;
+        background-attachment: fixed;
+        color: #333;
+    }
+
+    .poseido {
+        background: url(../img/poseidos.jpg);
+        background-size: 100%;
+        background-attachment: fixed;
+        color: #333;
+    }
+
+    .vex {
+        background: url(../img/infinite_forest.jpg);
+        background-size: 100%;
+        background-attachment: fixed;
+        color: #333;
+    }
+
+    .seguidor {
+        background: url(../img/destiny_darkness.jpg);
+        background-size: 100%;
+        background-attachment: fixed;
+        color: #333;
+    }
+
+    .nueve {
+        background: url(../img/the-Nine.webp);
+        background-size: 100%;
+        background-attachment: fixed;
+        color: #333;
+    }
+
+    .titulo {
+        margin-top: 2rem;
+        font-family: "Zen Dots", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 4rem;
+        font-weight: 700;
+        color: rgb(225, 255, 0);
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    .contenedor {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    .item {
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgb(0, 0, 0);
+        text-align: center;
+        background-color: #ffffff11;
+    }
+
+    .perfil {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 2px solid #666;
+        object-fit: cover;
+    }
+
+    .perfil9 {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 2px solid #666;
+        object-fit: cover;
+    }
+
+    .titulo_lore {
+        font-family: "Genos", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 30px;
+        color: #ffffff;
+    }
+
+    .build {
+        width: 250px;
+        height: 150px;
+        border-radius: 5%;
+        border: 2px solid #666;
+        object-fit: cover;
+    }
+
+    .perfil:hover {
+        width: 200px;
+        height: 300px;
+        border-radius: 5%;
+        border: 2px solid #666;
+        object-fit: cover;
+        transition: 1s;
+    }
+
+    .build:hover {
+        width: 300px;
+        height: 200px;
+        border-radius: 5%;
+        border: 2px solid #666;
+        object-fit: cover;
+        transition: 1s;
+    }
+
+    footer {
+        padding-bottom: 20px;
+        border-radius: 8px;
+        background-color: #0b1014;
+        text-align: center;
+    }
+
+    .wp_grupo {
+        margin: 20px;
+        width: 450px;
+        height: 250px;
+        border-radius: 5%;
+        border: 2px solid #666;
+    }
+
+    .txtfooter {
+        margin: 10px;
+        font-size: 20px;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .copy {
+        margin-top: 30px;
+        margin-left: 10px;
+        font-size: 10px;
+        color: #ffffff;
+        text-align: left;
+    }
+
+    @media screen and (max-width: 480px) {
+
+        .titulo {
+            margin-top: 2rem;
+            font-family: "Rubik Glitch", system-ui;
+            font-style: normal;
+            font-size: 2rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .contenedor {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+        }
+
+        .item {
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgb(0, 0, 0);
+            text-align: center;
+            background-color: #ffffff11;
+        }
+
+        .perfil {
+            width: 4rem;
+            height: 4rem;
+            border-radius: 50%;
+            border: 2px solid #666;
+            object-fit: cover;
+        }
+
+        .perfil9 {
+            width: 4rem;
+            height: 4rem;
+            border-radius: 50%;
+            border: 2px solid #666;
+            object-fit: cover;
+        }
+
+        .titulo_lore {
+            font-size: 1rem;
+            color: #ffffff;
+        }
+
+        .build {
+            width: 6rem;
+            height: 4rem;
+            border-radius: 5%;
+            border: 2px solid #666;
+            object-fit: cover;
+        }
+
+        .perfil:hover {
+            width: 6rem;
+            height: 8rem;
+            border-radius: 5%;
+            border: 2px solid #666;
+            object-fit: cover;
+            transition: 1s;
+        }
+
+        .build:hover {
+            width: 8rem;
+            height: 6rem;
+            border-radius: 5%;
+            border: 2px solid #666;
+            object-fit: cover;
+            transition: 1s;
+        }
+
+        footer {
+            border-radius: 8px;
+            background-color: #0b1014;
+            text-align: center;
+        }
+
+        .wp_grupo {
+            margin: 20px;
+            width: 50%;
+            height: 50%;
+            border-radius: 5%;
+            border: 2px solid #666;
+        }
+
+        .txtfooter {
+            margin: 10px;
+            font-size: 1rem;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        .copy {
+            margin-top: 30px;
+            margin-left: 10px;
+            font-size: .5rem;
+            color: #ffffff;
+            text-align: left;
+        }
+
+    }

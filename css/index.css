@@ -1,13 +1,7 @@
-    body {
-        margin: 0;
-        padding: 20px;
-        background-color: #f0f0f0;
-    }
+    @import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,100..900;1,100..900&family=Zen+Dots&display=swap');
 
     .index {
-        margin: 0;
-        padding: 0;
-        background: url(../img/the_tower.jpg);
+        background: url(../img/main_mundo_trono.jpg);
         background-size: 100%;
         background-attachment: fixed;
         color: #333;
@@ -20,37 +14,10 @@
         font-style: normal;
         font-size: 4rem;
         font-weight: 700;
-        color: rgb(8, 69, 0);
+        color: rgb(20, 173, 0);
         text-transform: uppercase;
         margin-bottom: 2rem;
         text-align: center;
-    }
-
-    .titulo_lore {
-        font-size: 30px;
-        color: #000;
-    }
-
-    .txtfooter {
-        margin: 10px;
-        font-size: 20px;
-        color: #ffffff;
-    }
-
-    .perfil {
-        width: 150px;
-        height: 150px;
-        border-radius: 50%;
-        border: 2px solid #666;
-        object-fit: cover;
-    }
-
-    .build {
-        width: 250px;
-        height: 150px;
-        border-radius: 5%;
-        border: 2px solid #666;
-        object-fit: cover;
     }
 
     .contenedor {
@@ -63,33 +30,88 @@
     .item {
         padding: 20px;
         border-radius: 8px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 2px 4px rgb(0, 0, 0);
         text-align: center;
-        background-color: #ffffff7a;
+        background-color: #ffffff11;
     }
 
-    .itemfooter {
-        padding: 20px;
-        display: grid;
-        border-radius: 8px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        text-align: center;
-        background-color: #0b1014;
+    .perfil {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 2px solid #666;
+        object-fit: cover;
     }
 
-    .footer {
-        margin: 20px;
-        width: 450px;
-        height: 250px;
+    .titulo_lore {
+        font-family: "Genos", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 40px;
+        color: #ffffff;
+    }
+
+    .build {
+        width: 250px;
+        height: 150px;
         border-radius: 5%;
         border: 2px solid #666;
         object-fit: cover;
     }
 
+    .perfil:hover {
+        width: 100%;
+        height: 90%;
+        border-radius: 5%;
+        border: 2px solid #666;
+        object-fit: cover;
+        transition: 1s;
+    }
+
+    footer {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding-bottom: 20px;
+        border-radius: 8px;
+        background-color: #0b1014;
+        text-align: center;
+    }
+
+    .imgfooter {
+        width: 250px;
+        height: 150px;
+        border-radius: 5%;
+        border: 2px solid #666;
+        object-fit: cover;
+    }
+
+    .txtfooter {
+        font-size: 20px;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .data {
+        font-size: 10px;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .copy {
+        margin-top: 30px;
+        margin-left: 10px;
+        font-size: 10px;
+        color: #ffffff;
+        text-align: left;
+    }
+
     @media screen and (max-width: 480px) {
 
         .index {
-            background: url(../img/the_tower_movile.webp);
+            background: url(../img/main_mundo_trono.jpg);
             background-size: cover;
             background-attachment: fixed;
             background-position: center;
@@ -108,14 +130,18 @@
             text-align: center;
         }
 
-        .titulo_lore {
-            font-size: 1rem;
-            color: #000;
+        .contenedor {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
         }
 
-        .txtfooter {
-            font-size: 1rem;
-            color: #ffffff;
+        .item {
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgb(0, 0, 0);
+            text-align: center;
+            background-color: #ffffff11;
         }
 
         .perfil {
@@ -126,12 +152,9 @@
             object-fit: cover;
         }
 
-        .footer {
-            width: 50%;
-            height: 50%;
-            border-radius: 5%;
-            border: 2px solid #666;
-            object-fit: cover;
+        .titulo_lore {
+            font-size: 1rem;
+            color: #ffffff;
         }
 
         .build {
@@ -142,27 +165,38 @@
             object-fit: cover;
         }
 
-        .contenedor {
-            padding: 1rem;
+        footer {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-            gap: 1rem;
-        }
-
-        .item {
-            padding: 1rem;
             border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            text-align: center;
-            background-color: #ffffff7a;
-        }
-
-        .itemfooter {
-            padding: 1rem;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            text-align: center;
             background-color: #0b1014;
+            text-align: center;
+        }
+
+        .imgfooter {
+            width: 8rem;
+            height: 6rem;
+            border-radius: 5%;
+            border: 2px solid #666;
+            object-fit: cover;
+        }
+
+        .txtfooter {
+            font-size: .75rem;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        .data {
+            font-size: .5rem;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        .copy {
+            font-size: .5rem;
+            color: #ffffff;
+            text-align: left;
         }
 
     }
