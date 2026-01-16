@@ -1,4 +1,101 @@
     @import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,100..900;1,100..900&family=Zen+Dots&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600&display=swap');
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 14px 40px;
+        background: linear-gradient(to bottom, #121a2f, #0b1020);
+        border-bottom: 1px solid rgba(255,255,255,0.08);
+        animation: fadeDown 0.6s ease;
+    }
+
+    @keyframes fadeDown {
+        from {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .nav-left .logo {
+        display: flex;
+        align-items: center;
+        width: 500px;
+    }
+
+    .imglogo {
+        width: 100px;
+        height: 100px;
+        margin-right: 10px;
+        border-radius: 50%;
+    }
+
+    .player-name {
+        font-family: "Zen Dots", sans-serif;
+        font-weight: 600;
+        letter-spacing: 2px;
+        color: #cfd8d3;
+        text-shadow: 0 0 8px rgba(120, 255, 200, 0.15);
+        font-size: 44px;
+        font-weight: 600;
+        letter-spacing: 5px;
+        margin-left: 10px;
+    }
+
+    .nav-center {
+        display: flex;
+        gap: 40px;
+    }
+
+    .nav-center a {
+        position: relative;
+        text-decoration: none;
+        color: #9aa7c7;
+        font-size: 15px;
+        letter-spacing: 2px;
+        padding-bottom: 6px;
+        transition: color 0.3s ease;
+    }
+
+    .nav-center a:hover {
+        color: #ffffff;
+    }
+
+    /* Línea inferior estilo Destiny */
+    .nav-center a::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0%;
+        height: 2px;
+        background: #ffffff;
+        transition: width 0.3s ease;
+    }
+
+    .nav-center a:hover::after,
+    .nav-center a.active::after {
+        width: 100%;
+    }
+
+    .nav-center a.active {
+        color: #ffffff;
+    }
+
+    .nav-right .icon {
+        color: #9aa7c7;
+        font-size: 18px;
+        cursor: pointer;
+    }
+
+    .nav-center a.active {
+        text-shadow: 0 0 6px rgba(140, 200, 255, 0.6);
+    }
 
     .portaluz {
         background: url(../img/destiny_light.jpeg);
@@ -77,23 +174,10 @@
         color: #333;
     }
 
-    .titulo {
-        margin-top: 2rem;
-        font-family: "Zen Dots", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        font-size: 4rem;
-        font-weight: 700;
-        color: rgb(225, 255, 0);
-        text-transform: uppercase;
-        margin-bottom: 2rem;
-        text-align: center;
-    }
-
     .contenedor {
         padding: 20px;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         gap: 10px;
     }
 
@@ -106,22 +190,26 @@
     }
 
     .perfil {
-        width: 150px;
-        height: 150px;
-        border-radius: 50%;
+        width: 200px;
+        height: 300px;
+        border-radius: 5%;
         border: 2px solid #666;
         object-fit: cover;
     }
 
     .perfil9 {
-        width: 150px;
-        height: 150px;
+        width: 200px;
+        height: 200px;
         border-radius: 50%;
         border: 2px solid #666;
         object-fit: cover;
     }
 
     .titulo_lore {
+        opacity: 0;
+        transform: translateX(-10px);
+        transition: opacity 0.3s ease, transform 0.3s ease;
+        margin: 0;
         font-family: "Genos", sans-serif;
         font-optical-sizing: auto;
         font-weight: 500;
@@ -130,30 +218,17 @@
         color: #ffffff;
     }
 
+    .item:hover .titulo_lore {
+        opacity: 1;
+        transform: translateX(0);
+}
+
     .build {
         width: 250px;
-        height: 150px;
-        border-radius: 5%;
-        border: 2px solid #666;
-        object-fit: cover;
-    }
-
-    .perfil:hover {
-        width: 200px;
-        height: 300px;
-        border-radius: 5%;
-        border: 2px solid #666;
-        object-fit: cover;
-        transition: 1s;
-    }
-
-    .build:hover {
-        width: 300px;
         height: 200px;
         border-radius: 5%;
         border: 2px solid #666;
         object-fit: cover;
-        transition: 1s;
     }
 
     footer {
@@ -165,8 +240,8 @@
 
     .wp_grupo {
         margin: 20px;
-        width: 450px;
-        height: 250px;
+        width: 250px;
+        height: 150px;
         border-radius: 5%;
         border: 2px solid #666;
     }
